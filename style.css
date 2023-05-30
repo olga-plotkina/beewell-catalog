@@ -10,10 +10,9 @@
 .container {
   height: calc(100vh - 50px);
   background-color: #839126;
-  flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
   overflow: hidden;
 }
 
@@ -26,10 +25,8 @@
 
 @media (width >= 1200px) {
   .container {
-    max-height: calc(100vh - 110px);
-    padding-top: 20px;
-    padding-bottom: 20px;
     overflow: hidden;
+    height: calc(100vh - 120px);
   }
 }
 
@@ -136,19 +133,18 @@
 @media (width >= 768px) {
   .book-footer {
     height: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }
 
 @media (width >= 1200px) {
   .book-footer {
     height: 60px;
-    padding-top: 20px;
   }
 }
 
 .btn-container {
+  font-size: 25px;
+
   height: 30px;
   color: #fff;
   justify-content: center;
@@ -162,5 +158,3 @@
   margin-left: 5px;
   margin-right: 5px;
 }
-
-/*# sourceMappingURL=index.08963856.css.map */
